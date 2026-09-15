@@ -1,55 +1,55 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 :root {
-  color: #f5f0e8;
-  background: #17211b;
-  font-family: Georgia, "Times New Roman", serif;
+    color: #f5f0e8;
+    background: #17211b;
+    font-family: Georgia, "Times New Roman", serif;
 }
 
 body {
-  min-height: 100vh;
-  margin: 0;
-  display: grid;
-  place-items: center;
-  background: radial-gradient(circle at top, #294333, #17211b 65%);
+    min-height: 100vh;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    background: radial-gradient(circle at top, #294333, #17211b 65%);
 }
 
 .game {
-  width: min(90vw, 30rem);
-  padding: 2rem 1rem;
-  text-align: center;
+    width: min(90vw, 30rem);
+    padding: 2rem 1rem;
+    text-align: center;
 }
 
 h1 {
-  margin: 0 0 1.5rem;
-  font-size: clamp(2.25rem, 8vw, 4rem);
-  font-weight: 400;
-  letter-spacing: 0.03em;
+    margin: 0 0 1.5rem;
+    font-size: clamp(2.25rem, 8vw, 4rem);
+    font-weight: 400;
+    letter-spacing: 0.03em;
 }
 
 .board {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  width: min(90vw, 26rem);
-  aspect-ratio: 1;
-  margin: 0 auto;
-  border: 2px solid #d4b483;
-  background: #d4b483;
-  gap: 2px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: min(90vw, 26rem);
+    aspect-ratio: 1;
+    margin: 0 auto;
+    border: 2px solid #d4b483;
+    background: #d4b483;
+    gap: 2px;
 }
 
 .cell {
-  min-width: 0;
-  border: 0;
-  background: #213528;
-  cursor: pointer;
+    min-width: 0;
+    border: 0;
+    background: #213528;
+    cursor: pointer;
 }
 
 .cell:hover,
 .cell:focus-visible {
-  background: #31503b;
-  outline: 3px solid #e6c995;
-  outline-offset: -3px;
+    background: #31503b;
+    outline: 3px solid #e6c995;
+    outline-offset: -3px;
 }

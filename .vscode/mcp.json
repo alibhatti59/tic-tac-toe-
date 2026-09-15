@@ -1,0 +1,9 @@
+{
+	"servers": {
+		"my-mcp-server-43312290": {
+			"url": "https://mcp.linear.app/mcp",
+			"type": "http"
+		}
+	},
+	"inputs": []
+}
