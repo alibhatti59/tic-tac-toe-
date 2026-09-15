@@ -29,6 +29,13 @@ h1 {
     letter-spacing: 0.03em;
 }
 
+.status {
+    min-height: 1.5em;
+    margin: -0.75rem 0 1.5rem;
+    color: #e6c995;
+    font-size: 1.2rem;
+}
+
 .board {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
