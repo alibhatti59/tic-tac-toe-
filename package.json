@@ -2,6 +2,8 @@
     "name": "tic-tac-toe",
     "private": true,
     "scripts": {
-        "test": "node --test"
+        "test": "node --test",
+        "check:script-syntax": "node --check script.js",
+        "check:win-detection-syntax": "node --check win-detection.js"
     }
 }
