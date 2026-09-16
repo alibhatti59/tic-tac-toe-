@@ -3,7 +3,7 @@
     "private": true,
     "scripts": {
         "test": "node --test",
-        "build": "node --check script.js",
-        "lint": "node --check win-detection.js"
+        "check:script-syntax": "node --check script.js",
+        "check:win-detection-syntax": "node --check win-detection.js"
     }
 }

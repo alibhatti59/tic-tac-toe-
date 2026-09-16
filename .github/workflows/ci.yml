@@ -18,13 +18,13 @@ jobs:
           node-version: 20
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Run tests
         run: npm test
 
-      - name: Run build check
-        run: npm run build
+      - name: Check script syntax
+        run: npm run check:script-syntax
 
-      - name: Run lint check
-        run: npm run lint
+      - name: Check win detection syntax
+        run: npm run check:win-detection-syntax
