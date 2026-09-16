@@ -1,5 +1,7 @@
 const cells = document.querySelectorAll('.cell');
 const status = document.querySelector('.status');
+const newGameButton = document.querySelector('.new-game');
+const cellLabels = [...cells].map((cell) => cell.getAttribute('aria-label'));
 let currentPlayer = 'X';
 let gameOver = false;
 
@@ -45,4 +47,15 @@ cells.forEach((cell) => {
         currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
         status.textContent = `${currentPlayer}'s turn`;
     });
+});
+
+newGameButton.addEventListener('click', () => {
+    cells.forEach((cell, index) => {
+        cell.textContent = '';
+        cell.setAttribute('aria-label', cellLabels[index]);
+    });
+
+    currentPlayer = 'X';
+    gameOver = false;
+    status.textContent = "X's turn";
 });

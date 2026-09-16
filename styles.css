@@ -60,3 +60,20 @@ h1 {
     outline: 3px solid #e6c995;
     outline-offset: -3px;
 }
+
+.new-game {
+    margin-top: 1.5rem;
+    padding: 0.75rem 1.5rem;
+    border: 2px solid #d4b483;
+    background: transparent;
+    color: #f5f0e8;
+    font: inherit;
+    cursor: pointer;
+}
+
+.new-game:hover,
+.new-game:focus-visible {
+    background: #31503b;
+    outline: 3px solid #e6c995;
+    outline-offset: 3px;
+}
