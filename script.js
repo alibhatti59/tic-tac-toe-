@@ -5,22 +5,8 @@ const cellLabels = [...cells].map((cell) => cell.getAttribute('aria-label'));
 let currentPlayer = 'X';
 let gameOver = false;
 
-const winningLines = [
-    [0, 1, 2],
-    [3, 4, 5],
-    [6, 7, 8],
-    [0, 3, 6],
-    [1, 4, 7],
-    [2, 5, 8],
-    [0, 4, 8],
-    [2, 4, 6],
-];
-
 function getWinner() {
-    return winningLines.find(([first, second, third]) => {
-        const mark = cells[first].textContent;
-        return mark !== '' && mark === cells[second].textContent && mark === cells[third].textContent;
-    });
+    return getWinningLine([...cells].map((cell) => cell.textContent));
 }
 
 cells.forEach((cell) => {
