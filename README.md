@@ -1,4 +1,4 @@
-# Tic Tac Toe — Agent-Driven Development Loop
+# Tic Tac Toe: Agent-Driven Development Loop
 
 A two-player Tic Tac Toe app built entirely through an AI-agent-driven
 ticket-to-merge loop, submitted for the Shayan Solutions AI Automation
