@@ -48,6 +48,15 @@ the agent, and wiring the pipeline around it.
    module-level variables in `script.js`. That's a verified-correct
    answer, not a guess — see the screen recording.
 
+## Linear access
+
+My Linear workspace is private (free plan). The project link in my 
+submission form will show a login prompt if you're not invited to my 
+workspace. Rather than requiring that step, the full ticket lifecycle 
+(created → in progress → in review → done) is shown live in the screen 
+recording. Happy to add anyone as a guest to the actual workspace if 
+that's still useful for review, just let me know an email to invite.
+
 ## Which agent and MCP servers I used
 
 **Agent: GitHub Copilot, Agent mode, in VS Code.** I did not have paid
