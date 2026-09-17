@@ -3,6 +3,13 @@
 		"my-mcp-server-43312290": {
 			"url": "https://mcp.linear.app/mcp",
 			"type": "http"
+		},
+		"my-mcp-server-e2dfd7ec": {
+			"type": "stdio",
+			"command": "python",
+			"args": [
+				"mcp-server/server.py"
+			]
 		}
 	},
 	"inputs": []
